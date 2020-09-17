@@ -1,0 +1,163 @@
+
+*{
+	box-sizing: border-box;
+}
+
+html{
+	line-height: 1.5;
+}
+body{
+	margin:0;
+	background-color:#ffffff;
+	font-family: "Times New Roman", Georgia, serif;
+	color: #000000;
+	font-size: 15px;
+}
+
+h1{
+	font-weight: 400;
+	font-family: "Playfair Display", serif;	
+	font-size: 36px;
+	word-spacing: 0.1em;
+	letter-spacing: 0.1em;
+	
+}
+
+h5{
+	font-family: serif;
+	font-size: 18px;
+	word-spacing: 0.1em;
+	letter-spacing: 0.1em;
+	color: #000000;
+}
+
+.opacity{
+	opacity: 0.5;
+}
+
+h4{	
+	font-weight: 400;
+	font-family: "Playfair Display", serif;	
+	font-size: 20px;
+	word-spacing: 0.1em;
+	letter-spacing: 0.2em;
+	margin: 10px 0;
+}
+
+.p-large{
+	font-weight: 400;
+	line-height: 27px;
+	font-size: 18px;
+}
+
+.row::before,.row::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.banner{
+	max-width: 100%;
+	position: relative;
+} 
+
+.banner img{
+	width:100%;
+	height: auto;
+}
+
+.banner h1{
+	opacity: 0.60;
+	position: absolute;
+	bottom: 1vh;
+	left: 1.5%;
+}
+
+.content{
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.feature-panel{
+	padding-top: 64px;
+	padding-bottom: 64px !important;
+}
+
+.col-small{
+	width: 49.99%;
+	padding: 12px 24px!important;
+	float: left;	
+}
+
+.col-small img{
+	max-width: 100%;
+	height: auto;
+	opacity: 0.75;
+	border-radius: 5px;
+}
+
+.highlight{
+	background-color:#f1f1f1!important;
+	color: #000;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+	display: inline-block;
+}
+
+
+.col-small h1,.col-small h5{
+	text-align: center;
+}
+
+hr{
+	border: 0;
+	border-top: 1px solid #eee;
+	margin: 20px 0;
+}
+
+.p-type1{
+	font-size: 15px;
+	color: #757575!important;
+	line-height: 23px;
+}
+
+.p-green{
+	font-weight: 700;
+	color: #607d8b;
+}
+
+footer{
+	padding-top: 32px;
+	padding-bottom: 32px;
+	background-color:#f1f1f1 ;
+	text-align: center;
+}
+
+.col-large{
+	width: 100%;
+	padding: 12px 24px!important;
+}
+
+.my-form input[type="text"],.my-form input[type="number"],.my-form input[type="datetime-local"]{
+	padding: 20px 20px 20px 10px;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #CCC;
+}
+
+.button{
+	margin: 16px 0;
+	display: inline-block;
+	padding: 12px 16px;
+	border: none;
+	cursor: pointer;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.button:hover {
+    color: #000!important;
+    background-color: #ccc!important;
+}
