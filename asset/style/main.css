@@ -12,7 +12,35 @@ body{
 	font-family: "Times New Roman", Georgia, serif;
 	color: #000000;
 	font-size: 15px;
-	
+	position: relative;
+}
+header{
+	top:0;
+	position: fixed;	
+	width: 100%;
+	z-index: 1;
+	background-color: #ffffff;
+	padding:8px
+}
+
+header nav a ,header nav li{
+	margin-right: 10px;
+	padding: 10px 5px 10px 5px;
+	float: left;
+	text-decoration: none;
+	font-size: 15px;
+	letter-spacing: 0.2em;
+}
+
+
+nav li{
+	display: inline;
+	padding-right: 0px 10px !important;
+}
+
+nav ul{
+	float: right;
+	margin:0;
 }
 
 h1{
@@ -181,6 +209,14 @@ footer{
 	.feature-panel {
 		padding: 0 0 0 0;
 	}
+	.menu{
+		display: none;
+	}
+	header{
+		padding:3px;
+		padding-left: 8px;
+		
+	}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px){ 
@@ -193,5 +229,10 @@ footer{
  
 @media only screen and (min-width: 992px){
 
+}
+
+nav a ,nav li{
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
 }
 
