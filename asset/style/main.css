@@ -12,6 +12,7 @@ body{
 	font-family: "Times New Roman", Georgia, serif;
 	color: #000000;
 	font-size: 15px;
+	
 }
 
 h1{
@@ -58,19 +59,23 @@ h4{
 
 .banner{
 	max-width: 100%;
+	/* min-width: 500px; */
 	position: relative;
+	overflow: hidden;
 } 
 
 .banner img{
-	width:100%;
+	max-width:100%;
+	min-width: 100%;
 	height: auto;
 }
 
-.banner h1{
+.bannerin{
+	padding: 12px 24px;;
 	opacity: 0.60;
 	position: absolute;
-	bottom: 1vh;
-	left: 1.5%;
+	bottom: 0;
+	left: 0;
 }
 
 .content{
@@ -81,7 +86,7 @@ h4{
 
 .feature-panel{
 	padding-top: 64px;
-	padding-bottom: 64px !important;
+	padding-bottom: 64px;
 }
 
 .col-small{
@@ -144,7 +149,9 @@ footer{
 	padding: 20px 20px 20px 10px;
 	width: 100%;
 	border: none;
+	background-color: white;
 	border-bottom: 1px solid #CCC;
+
 }
 
 .button{
@@ -161,3 +168,30 @@ footer{
     color: #000!important;
     background-color: #ccc!important;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+	.mob-hide{
+		display: none;
+	}
+
+	.col-small{
+		width: 100%;
+	}
+
+	.feature-panel {
+		padding: 0 0 0 0;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+
+}
+ 
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+ 
+@media only screen and (min-width: 992px){
+
+}
+
